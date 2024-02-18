@@ -1,0 +1,27 @@
+.shop-category {
+  width: 100vw;
+}
+
+.banner-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem;
+}
+
+.banner {
+  width: 80vw;
+}
+
+.shop-category-cards-div {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-category-card {
+  max-width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}

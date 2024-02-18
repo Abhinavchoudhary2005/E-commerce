@@ -1,0 +1,45 @@
+.cart-img {
+  width: 5rem;
+}
+
+.cart-product {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.cart-title {
+  padding-left: 5rem;
+  max-width: 15rem;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+  text-align: left;
+}
+
+.cart-price {
+  padding-left: 5rem;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+  text-align: center;
+}
+
+.cart-quantity {
+  padding-left: 5rem;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+  text-align: center;
+}
+
+.cart-total {
+  padding-left: 5rem;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+  text-align: center;
+}
+
+.cart-remove {
+  padding-left: 5rem;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+  text-align: center;
+  cursor: pointer;
+}

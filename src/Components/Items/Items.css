@@ -1,0 +1,68 @@
+.item {
+  width: 15rem;
+  height: fit-content;
+  box-shadow: 0px 0px 5px 5px rgb(218, 217, 217);
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.img {
+  width: 15rem;
+  box-shadow: 0px 0px 5px 5px rgb(236, 235, 235);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.img:hover {
+  transform: scale(1.05);
+}
+
+.desc {
+  font-size: 0.9rem;
+}
+
+.price {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.old-price {
+  color: rgb(119, 118, 118);
+  text-decoration: line-through;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .item {
+    width: 13rem;
+    height: 25rem;
+  }
+
+  .img {
+    width: 13rem;
+  }
+
+  .below-img {
+    transform: scale(0.95);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .item {
+    width: 11rem;
+    height: 23rem;
+  }
+
+  .img {
+    width: 11rem;
+  }
+
+  .below-img {
+    transform: scale(0.9);
+  }
+}
